@@ -9,7 +9,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fstack-protector")
 
 include("${PROJECT_SOURCE_DIR}/LoadExternalDependencies.cmake")
 
-file(GLOB CODE_FILES *.h *.hpp *.cpp *.cc)
+file(GLOB CODE_FILES *.h *.hpp *.cpp)
 SET(APP_NAME main)
 SET(APP_FILES ${CODE_FILES} )
 
