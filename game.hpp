@@ -28,5 +28,7 @@ public:
     void close();
     SDL_Texture* loadTexture( std::string path );
     void run();
+    int get_width();
+    int get_height();
 };
 

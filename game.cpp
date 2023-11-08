@@ -4,6 +4,13 @@
 
 SDL_Renderer* Drawing::gRenderer = NULL;
 SDL_Texture* Drawing::assets = NULL;
+int Game::get_height(){
+	return SCREEN_HEIGHT;
+}
+
+int Game::get_width(){
+	return SCREEN_WIDTH;
+}
 
 bool Game::init()
 {

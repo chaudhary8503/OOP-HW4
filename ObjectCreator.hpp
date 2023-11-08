@@ -1,4 +1,5 @@
+#include "unit.hpp"
 class ObjectCreator{
     public:
-    void getObject();
+    Unit* getObject();
 };

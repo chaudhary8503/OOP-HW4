@@ -9,11 +9,12 @@ using namespace std;
 class HUMania{
 
     //Right now we're creating one pigeon, just for practice. for details follow the guidlines 
-    Pigeon p1;
+    private:
+    list<Unit*> lst;
 
     //Create your list here
     public:
-    
+    void updateList(Unit* ptr);
     void drawObjects(); 
     void createObject(int, int);
     
