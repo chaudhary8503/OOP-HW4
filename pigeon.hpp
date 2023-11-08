@@ -4,7 +4,6 @@ class Pigeon{
 
     SDL_Rect srcRect, moverRect;
     int frame = 0;
-    list<Unit> pigeons;
 
 public:
     // add the fly function here as well.

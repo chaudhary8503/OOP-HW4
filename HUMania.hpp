@@ -13,7 +13,6 @@ class HUMania{
 
     //Create your list here
     public:
-    list<Unit*> lst;
     
     void drawObjects(); 
     void createObject(int, int);

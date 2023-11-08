@@ -1,6 +1,7 @@
 class Unit{
-    private:
+    
     public:
+    Unit();
     void draw();
     virtual void fly();
 };
